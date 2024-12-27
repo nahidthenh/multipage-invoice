@@ -1,0 +1,92 @@
+ /* General Styles */
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background: #fff;
+     color: #000;
+ }
+
+ #invoice {
+     width: 58mm;
+     margin: 0 auto;
+     background: #fff;
+     padding: 10px;
+     box-sizing: border-box;
+     border: 1px solid #ddd;
+ }
+
+ .invoice-body {
+     padding: 10px 0;
+ }
+
+ /* Header */
+ .header {
+     text-align: center;
+     border-bottom: 1px dashed #ddd;
+     margin-bottom: 10px;
+     padding-bottom: 5px;
+ }
+
+ .header img {
+     max-height: 40px;
+     margin-bottom: 5px;
+ }
+
+ .header p {
+     margin: 2px 0;
+     font-size: 12px;
+ }
+
+ .header strong {
+     font-size: 14px;
+ }
+
+ .right {
+     margin-top: 5px;
+ }
+
+ /* Table Styles */
+ #item-table {
+     width: 100%;
+     border-collapse: collapse;
+     font-size: 12px;
+ }
+
+ #item-table th,
+ #item-table td {
+     text-align: left;
+     padding: 5px;
+     border-bottom: 1px dashed #ddd;
+ }
+
+ #item-table th:last-child,
+ #item-table td:last-child {
+     text-align: right;
+ }
+
+ #item-table tfoot td {
+     font-weight: bold;
+ }
+
+ #item-table tfoot td:last-child {
+     text-align: right;
+ }
+
+ /* Footer */
+ footer {
+     text-align: center;
+     border-top: 1px dashed #ddd;
+     margin-top: 10px;
+     padding-top: 5px;
+ }
+
+ footer p {
+     margin: 2px 0;
+     font-size: 12px;
+ }
+
+ footer .notes {
+     font-size: 13px;
+     font-weight: bold;
+ }

@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #000 !important;
+}
+
+/* New CSS  */
+
+.invoice {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    page-break-after: always;
+}
+
+.invoice:last-child {
+    page-break-after: auto;
+}
+
+/* New CSS  */
+
+#invoice {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.invoice-body {
+    padding: 10px 50px 50px 50px;
+}
+
+
+
+
+/* Invoice Info */
+#invoice-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.info-block p {
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: left !important;
+    font-weight: normal !important;
+}
+
+/* Tabel CSS  */
+
+#item-table tfoot td:first-child {
+    text-align: right;
+    font-weight: normal;
+    color: #555;
+}
+
+#item-table tfoot td:last-child {
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+}
+
+#item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+#item-table th,
+#item-table td {
+    text-align: left;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#item-table th:last-child,
+#item-table td:last-child {
+    text-align: right;
+}
+
+#item-table tfoot tr:first-child td {
+    padding-top: 20px !important;
+}
+
+#item-table tfoot tr td {
+    font-weight: bold;
+    border-bottom: 0;
+    padding: 8px 0 !important;
+}
+
+#item-table tfoot tr td:last-child {
+    text-align: right;
+}
+
+#item-table {
+    margin-bottom: 50px;
+    /* Adds space below the table */
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+#payment-notes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* Redesigned Header */
+.header {
+    /* background: #4CAF50; */
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed #ddd;
+}
+
+.header .left,
+.header .right {
+    flex: 1;
+}
+
+.header .center {
+    text-align: center;
+    flex: 2;
+}
+
+.header img {
+    max-height: 50px;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.header strong {
+    font-size: 16px;
+}
+
+/* Redesigned Footer */
+footer {
+    /* background: #4CAF50; */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px dashed #ddd;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer .notes {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* ---------  */
